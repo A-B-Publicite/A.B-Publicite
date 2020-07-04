@@ -1,0 +1,118 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+/*AQUI CAMBIAN COLOR DE FONDO*/
+body
+{
+	background:#93DBE7;
+}
+header , .main , footer
+{
+  width:90%;
+  max-width: 1150px;
+  overflow: hidden;
+  margin:10px auto;
+}
+/*aqui programo el menu en la cabecera*/
+header h1
+{
+	display:block;
+	font-size:80px;
+	padding:15px;
+}
+header
+{
+  margin: 40px  0 0 0 auto;
+}
+/*aqui pones color al menu*/
+header nav
+{
+  background:#229EA6;
+  overflow: hidden;
+  position: relative;
+}
+nav ul
+{
+ list-style:none;
+}
+nav >ul >li
+{
+  float: right;
+}
+nav ul li a {
+  display:block;
+  padding:15px 82px;
+  list-style:none;
+  text-decoration:none;
+  color:white;
+}
+/*color efecto*/
+nav ul li a:hover
+{
+  background:#31CBC9;
+}
+nav ul li ul
+{
+  display: none;
+}
+nav ul li:hover ul
+{
+  display:none;
+
+}
+
+/*aqui empezamos con el cuerpo*/
+.main div
+{
+  float: right;
+  width:33.5%;
+  margin-left: 1.2%;
+  background:#93DBE7;
+  padding:15px;
+}
+.main .h
+{
+  float:right;
+  width: 21.5%;
+  background:#93DBE7;
+  padding: 15px;
+  color:black;
+  text-aling:center;
+}
+
+/*pie de pagina*/
+footer
+{
+  clear: both;
+  background:#229EA6;
+  color: white;
+  text-align:left;
+  padding: 15px 0px;
+  display:block;
+  font-size:20px
+}
+footer a
+{
+  float:left;
+  width: 100%;
+  background:#229EA6;
+  padding: 15px;
+  color:white;
+}
+footer >ul 
+{
+	list-style:none;
+}
+footer >ul li a
+{
+	text-style:none;
+	text-decoration:none;
+	
+}
+footer >ul li a:hover
+{
+	background:#FFC5C5;
+}
+
